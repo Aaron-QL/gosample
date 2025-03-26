@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Aaron_QL_gosample_1742979649282-push-trigger-input-set
+  identifier: Build_Aaron_QL_gosample_1742979649282pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Aaron_QL_gosample_1742979649282
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
