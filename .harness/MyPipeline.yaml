@@ -42,4 +42,6 @@ pipeline:
                   identifier: Run_2
                   spec:
                     shell: Sh
-                    command: echo "runing step 2"
+                    command: |-
+                      echo "running step 2"
+                      echo "running step 3"
